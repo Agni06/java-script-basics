@@ -7,3 +7,7 @@ totalsteps : 30846,
 
   
 };
+
+fitbitdata['thomas'] = 'C+';
+fitbitdata['Agni'] = 'A+';
+console.log(fitbitdata);
