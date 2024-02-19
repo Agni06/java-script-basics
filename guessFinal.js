@@ -9,24 +9,33 @@ const target = 1;
 
 while(parseInt(guess)!==targetNum)
 {
+  guess = parseInt(guess);
+  
   if(guess==='q')
   {
     break;
     
   }
-  target++;
+  
   
   if(guess>targetNum)
   {
+    target++;
     guess = prompt("To big, please enter small number");
     
     
     
   }
-  else
+  if else(guess<targetNum)
   {
+    target++;
     guess = prompt("To small, please enter big number");
     
+    
+  }
+  else
+  {
+    guess = prompt("Invalid , please enter a number or q ");
     
   }
 }
